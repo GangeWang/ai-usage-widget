@@ -1,0 +1,15 @@
+{
+  "name": "ai-usage",
+  "owner": {
+    "name": "gange"
+  },
+  "plugins": [
+    {
+      "name": "ai-usage-widget",
+      "source": "./plugins/ai-usage-widget",
+      "description": "macOS 桌面小工具：即時顯示 Claude 與 Codex 的 5 小時和每週額度。",
+      "version": "1.5.1"
+    }
+  ],
+  "description": "Claude 與 Codex 額度的 macOS 桌面小工具"
+}

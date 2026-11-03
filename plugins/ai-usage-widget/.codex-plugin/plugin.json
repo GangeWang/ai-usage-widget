@@ -1,0 +1,35 @@
+{
+  "name": "ai-usage-widget",
+  "version": "1.5.1",
+  "description": "macOS 桌面小工具：即時顯示 Claude 與 Codex 的 5 小時和每週額度。",
+  "author": {
+    "name": "gange"
+  },
+  "license": "MIT",
+  "keywords": [
+    "macos",
+    "widget",
+    "usage",
+    "quota",
+    "claude",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI 額度 Widget",
+    "shortDescription": "Claude/Codex 額度桌面小工具",
+    "longDescription": "在 Mac 桌面加上兩個小工具，分別顯示 Claude 和 Codex 的 5 小時與每週用量、剩餘百分比和重置時間。安裝時會在本機用 Xcode 編譯並放到 ~/Applications，背景每 5 分鐘更新一次。",
+    "developerName": "gange",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "安裝 AI 額度桌面小工具",
+      "我的 Claude 和 Codex 額度還剩多少？"
+    ],
+    "brandColor": "#D97757"
+  }
+}
